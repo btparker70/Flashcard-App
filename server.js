@@ -12,7 +12,7 @@ var db = require("./models");
 
 // Sets up the express app to handle data parsing
 app.use(express.urlencoded({extended: true}));
-app.use(experss.json());
+app.use(express.json());
 
 // Static directory
 app.use(express.static("public"));

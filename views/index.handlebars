@@ -1,0 +1,20 @@
+{{!-- Header --}}
+<header class="jumbotron">
+    <h1 class="display-3">Eat Da Burger!</h1>
+    <p class="lead">A simple node app for creating, reading, updating and deleting to and from a SQL database.</p>
+</header>
+
+{{!-- Main --}}
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h2>Your deck</h2>
+            <ul>
+                {{#each flashcards}}
+                <li>
+                    <button type="button" id="edit">Edit</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
